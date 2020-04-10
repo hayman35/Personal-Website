@@ -2,10 +2,9 @@ $(function() {
   $(".typed").typed({
     strings: [
       "stat hayman.human<br/>" + 
-      "><span class='caret'>$</span> skills: C, C++, Java, Python, Android<br/> ^100" +
-      "><span class='caret'>$</span> hobbies: Soccer,Travel, Gaming, App Devlopment</a><br/> ^300" +
-      "><span class='caret'>$</span> alias: crearo <br/>" +
-      "><span class='caret'>$</span> highlight: <br/>"
+      "><span class='caret'>$</span> skills: c, c++, java, python, android<br/> ^100" +
+      "><span class='caret'>$</span> hobbies: soccer, travel, gaming, app development</a><br/> ^300" +
+      "><span class='caret'>$</span> degree: computer science<br/>" 
     ],
     showCursor: true,
     cursorChar: '_',
