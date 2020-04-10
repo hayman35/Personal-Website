@@ -4,7 +4,7 @@ body {
 }
 
 .navbar-ref {
-  color: #808080;
+  color: #535353;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
 }
@@ -20,7 +20,7 @@ body {
   display: flex;
   text-decoration: none;
   justify-content: space-around;
-  margin:20px 0;
+  margin:10px 0;
   width: 50%;
 }
 
@@ -30,7 +30,7 @@ body {
   }
 
   .navbar-ref {
-    color: #808080;
+    color: #535353;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
   }
