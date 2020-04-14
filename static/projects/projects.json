@@ -1,0 +1,92 @@
+{
+  "projects": [
+    {
+      "name": "Personal Website",
+      "date": "April 2020",
+      "short": "Created this website, feel free to check the code out at github",
+      "status": "complete",
+      "github": "https://github.com/hayman35/Website",
+      "weight": 1,
+      "tags": [
+        "Python",
+        "HTML",
+        "CSS",
+        "JS",
+        "Flask"
+      ],
+      "photos": [
+        "/static/projects/Website/site.png"
+      ]
+      
+    },
+    {
+      "name": "Quickie",
+      "date": "Jan 2019",
+      "short": "Created an automated Uber-like calling system that interacts with a user through voice recognition",
+      "status": "complete",
+      "github": "https://github.com/hayman35/Quickie",
+      "weight": 1,
+      "tags": [
+        "Raseberry Pi",
+        "C++",
+        "HTML",
+        "Google API's",
+        "Uber API's"
+      ],
+      "photos": [
+        "/static/projects/Quickie/Uber.png"      
+      ]
+    },
+    {
+      "name": "TapSoccer",
+      "date": "Feb 2019",
+      "short": "Created a simple soccer keep up game that uses touch and a little physics to keep the ball up",
+      "status": "complete",
+      "github": "https://github.com/hayman35/TapSoccer",
+      "weight": 1,
+      "tags": [
+        "Lua",
+        "Android",
+        "MYSQL"      
+      ],
+      "photos": [
+        "/static/projects/TapSoccer/soccer.png"      
+      ]
+    },
+    {
+      "name": "Get Out",
+      "date": "March 2019",
+      "short": "Created and designed a platformer game that plays through iconic gamess",
+      "status": "complete",
+      "github": "https://github.com/hayman35/GetOut",
+      "weight": 1,
+      "tags": [
+        "GoDot",
+        "C++",
+        "Android",
+        "IOS"
+      ],
+      "photos": [
+        "/static/projects/GetOut/platform.png"      
+      ]
+    },
+    {
+      "name": "Flight Planner",
+      "date": "Apr 2019",
+      "short": "Created a Flight manager system that was designed to track flights, passengers, and ticket information ",
+      "status": "complete",
+      "github": "https://github.com/hayman35/Se2205Assignment3",
+      "weight": 1,
+      "tags": [
+        "Java",
+        "SceneBuilder",
+        "HTML",
+        "MYSQL"
+      ],
+      "photos": [
+        "/static/projects/FlightPlanner/flight.jpg"      
+      ]
+    }
+ 
+  ]
+}
