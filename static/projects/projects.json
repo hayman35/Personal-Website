@@ -69,24 +69,6 @@
       "photos": [
         "/static/projects/GetOut/platform.png"      
       ]
-    },
-    {
-      "name": "Flight Planner",
-      "date": "Apr 2019",
-      "short": "Created a Flight manager system that was designed to track flights, passengers, and ticket information ",
-      "status": "complete",
-      "github": "https://github.com/hayman35/Se2205Assignment3",
-      "weight": 1,
-      "tags": [
-        "Java",
-        "SceneBuilder",
-        "HTML",
-        "MYSQL"
-      ],
-      "photos": [
-        "/static/projects/FlightPlanner/flight.jpg"      
-      ]
     }
- 
   ]
 }
