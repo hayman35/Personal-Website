@@ -13,7 +13,6 @@ try:
 except:
     print('Tracking ID not set')
 
-resume_pdf_link = 'https://drive.google.com/open?id=0B2BrrDjIiyvmcWp5T194cy00UmM'
 
 
 @app.route('/')
@@ -22,9 +21,9 @@ def index():
     return render_template('home.html', age=age)
 
 
-@app.route('/timeline')
-def timeline():
-    return render_template('timeline.html', resume_pdf_link=resume_pdf_link)
+# @app.route('/timeline')
+# def timeline():
+#     return render_template('timeline.html', resume_pdf_link=resume_pdf_link)
 
 
 @app.route('/projects')
@@ -39,34 +38,34 @@ def projects():
     return render_template('projects.html', projects=data, tag=tag)
 
 
-@app.route('/lifehacks/privacy-policy')
-def lifehacks_privacy_policy():
-    return render_template('lifehacks-privacy-policy.html')
+# @app.route('/lifehacks/privacy-policy')
+# def lifehacks_privacy_policy():
+#     return render_template('lifehacks-privacy-policy.html')
 
 
-@app.route('/dawebmail/privacy-policy')
-def dawebmail_privacy_policy():
-    return render_template('dawebmail-privacy-policy.html')
+# @app.route('/dawebmail/privacy-policy')
+# def dawebmail_privacy_policy():
+#     return render_template('dawebmail-privacy-policy.html')
 
 
-@app.route('/lifehacks/terms-and-conditions')
-def lifehacks_disclaimer():
-    return render_template('lifehacks-terms-and-conditions.html')
+# @app.route('/lifehacks/terms-and-conditions')
+# def lifehacks_disclaimer():
+#     return render_template('lifehacks-terms-and-conditions.html')
 
 
-@app.route('/lifehacks/disclaimer')
-def lifehacks_terms_and_conditions():
-    return render_template('lifehacks-disclaimer.html')
+# @app.route('/lifehacks/disclaimer')
+# def lifehacks_terms_and_conditions():
+#     return render_template('lifehacks-disclaimer.html')
 
 
-@app.route('/mit-media-lab-application')
-def media_lab_application():
-    return render_template('mit-media-lab-application.html')
+# @app.route('/mit-media-lab-application')
+# def media_lab_application():
+#     return render_template('mit-media-lab-application.html')
 
 
-@app.route('/blog')
-def blog():
-    return redirect("http://bhardwajrish.blogspot.com/", code=302)
+# @app.route('/blog')
+# def blog():
+#     return redirect("http://bhardwajrish.blogspot.com/", code=302)
 
 
 @app.route('/experiences')

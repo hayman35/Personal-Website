@@ -97,11 +97,6 @@ ul li a {
     display: block;
 }
 
-@media screen and (max-width: 1024px) {
-    .terminal-mobile {
-        margin: 1rem 0;
-    }
-}
 
 .text-content {
   margin:20px 0px 20px 0px;
