@@ -1,6 +1,24 @@
 {
   "projects": [
     {
+      "name": "WeatherMe",
+      "date": "May 2020",
+      "short": "Weather widget created on android studio that uses weatherapi json data",
+      "status": "complete",
+      "github": "https://github.com/hayman35/Weather-Widget",
+      "weight": 1,
+      "tags": [
+        "Android",
+        "java",
+        "gson",
+        "Weatherapi"
+      ],
+      "photos": [
+        "/static/projects/WeatherMe/weatherme.jpg"
+      ]
+      
+    },
+    {
       "name": "Personal Website",
       "date": "April 2020",
       "short": "Created this website, feel free to check the code out at github",
